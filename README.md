@@ -67,6 +67,7 @@ Run:
 
 python src/main.py
 
+
 The application opens the webcam and displays:
 
 Number of detected faces
@@ -85,10 +86,12 @@ Then run:
 
 python src/image_detector.py
 
+
 The processed image will be saved to:
 
 outputs/result.jpg
-Detection Method
+
+## Detection Method
 
 ## The project uses OpenCV Haar Cascade classifiers.
 
@@ -99,6 +102,7 @@ haarcascade_frontalface_default.xml
 ## The eye detector uses:
 
 haarcascade_eye.xml
+
 
 The eye detector is applied only inside detected face regions.
 
