@@ -43,23 +43,25 @@ face-eye-detector/
 ├── .gitignore
 └── README.md
 
+```
 
-Installation
+## Installation
 
 Clone the repository:
 
 git clone https://github.com/HessamKaveh/face-eye-detector.git
 cd face-eye-detector
 
-Create a virtual environment:
+## Create a virtual environment:
 
 python3 -m venv venv
 source venv/bin/activate
 
-Install dependencies:
+## Install dependencies:
 
 pip install -r requirements.txt
-Webcam Detection
+
+## Webcam Detection
 
 Run:
 
@@ -73,7 +75,7 @@ Current FPS
 
 Press q or ESC to exit.
 
-Image Detection
+## Image Detection
 
 Place an image at:
 
@@ -88,19 +90,19 @@ The processed image will be saved to:
 outputs/result.jpg
 Detection Method
 
-The project uses OpenCV Haar Cascade classifiers.
+## The project uses OpenCV Haar Cascade classifiers.
 
-The face detector uses:
+## The face detector uses:
 
 haarcascade_frontalface_default.xml
 
-The eye detector uses:
+## The eye detector uses:
 
 haarcascade_eye.xml
 
 The eye detector is applied only inside detected face regions.
 
-Limitations
+## Limitations
 
 Haar Cascade detection can be affected by:
 
