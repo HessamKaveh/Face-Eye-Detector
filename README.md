@@ -106,8 +106,8 @@ The eye detector is applied only inside detected face regions.
 
 Haar Cascade detection can be affected by:
 
-Poor lighting
-Large head rotations
-Occlusion
-Very small faces
-Extreme facial angles
+- Poor lighting
+- Large head rotations
+- Occlusion
+- Very small faces
+- Extreme facial angles
