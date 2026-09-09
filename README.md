@@ -78,16 +78,16 @@ Press q or ESC to exit.
 
 ## Image Detection
 
-Place an image at:
+# Place an image at:
 
 images/test.jpg
 
-Then run:
+# Then run:
 
 python src/image_detector.py
 
 
-The processed image will be saved to:
+# The processed image will be saved to:
 
 outputs/result.jpg
 
