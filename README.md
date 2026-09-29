@@ -114,4 +114,9 @@ Haar Cascade detection can be affected by:
 - Large head rotations
 - Occlusion
 - Very small faces
+
+
+
+## Author
+Hessam Kaveh — Research Fellow, Italian Institute of Technology
 - Extreme facial angles
